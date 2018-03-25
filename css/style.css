@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+section#musthead .wrap{
+	background: url(C:/Users/admin/Desktop/homework/homework11/img/1.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+section#musthead .header{
+	padding-top: 20px;
+}
+section#musthead .logo{
+	float: left;
+	padding-left: 60px;
+}
+section#musthead .buttons{
+	float: right;
+}
+section#musthead .buttons ul{
+	list-style-type: none;
+	font-family: Raleway;
+	display: inline-flex;
+	padding-right: 60px;
+	font-size: 10px;
+}
+section#musthead .buttons ul li{
+	padding-left: 65px;
+	text-transform: uppercase;
+}
+section#musthead .line{
+	height: 1px;
+	margin: 40px 60px 140px;
+	background-color: #fff;
+}
+section#musthead .slogan h1{
+	font-family: OpenSansBold;
+	font-size: 45px;
+	text-align: center;
+	text-transform: uppercase;
+}
+section#musthead .slogan h2{
+	font-family: Raleway;
+	font-size: 15px;
+	text-align: center;	
+	padding-top: 10px;
+
+}
+section#musthead .button{
+	text-align: center;
+	padding: 60px 0px 100px;
+}
+
+section#features .wrap2{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 100px 0 100px;
+}
+section#features .features{
+	width: 200px;
+	margin: 50px;
+	text-align: center;
+}
+section#features .features h3{
+	font-family: OpenSansBold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+section#features .features p{
+	font-family: Raleway;
+	font-size: 9px;
+	padding-top: 10px;
+}
+
+
+.fw-container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+section#works .works{
+	width: 25%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+section#works img{
+	width: 100%;
+	height: auto;
+}
